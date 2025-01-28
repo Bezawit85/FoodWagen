@@ -1,0 +1,138 @@
+.footer-container {
+    width: 100%;
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+  }
+  
+  .footer-links {
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-around;
+  }
+  
+  .footer-link {
+    color: rgba(12, 51, 75, 0.9);
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 50px;
+  }
+  .footer-link-detail {
+    color: rgba(12, 51, 75, 0.9);
+    text-decoration: none;
+    margin: 0 15px;
+    cursor: pointer;
+  }
+  .footer-link-detail:hover {
+    color: #446bc0;
+  }
+  .footer-link-detail-support {
+    color: rgba(12, 51, 75, 0.9);
+    text-decoration: none;
+    margin: 0 15px;
+    cursor:auto;
+  }
+  
+  .footer-bottom {
+    background-color: #111827;
+    padding: 20px;
+    font-size: 1rem;
+    color: #9ca3af;
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-around;
+  
+    flex-direction: row;
+  }
+  
+  .footer-link {
+    color: rgba(12, 51, 75, 0.9);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%; 
+    margin-bottom: 20px; 
+  }
+  
+  .footer-link-detail {
+    color: rgba(12, 51, 75, 0.9);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .footer-link-detail:hover {
+    color: #446bc0;
+  }
+  
+  .footer-bottom {
+    background-color: #111827;
+    padding: 20px;
+    font-size: 1rem;
+    color: #9ca3af;
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    color: rgba(12, 51, 75, 0.9);
+  }
+  
+  .social-icon:hover {
+    color: #446bc0;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-links {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  .footer-link {
+    font-size: 1rem;
+  }
+  .footer-link-detail,
+  .footer-link-detail-support {
+    font-size: 0.8rem;
+  }
+    .footer-column {
+      width: 100%; 
+      margin-left: 0;
+    }
+  
+    .footer-bottom {
+      font-size: 0.7rem; 
+      padding: 10px;
+    }
+  }
+  
