@@ -8,6 +8,7 @@ const HomePage = () => {
       <div className='home'>
         <div className="leftPanel">
           <h1 className="title">Are you starving?</h1>
+          <p>within a few clicks, find meals that are accessible near you. </p>
         </div>
         <div className="rightPanel">
         <Image

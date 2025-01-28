@@ -1,0 +1,78 @@
+.products {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 4rem 0;
+    min-height: 100vh;
+  }
+  
+  .products_title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    position: relative;
+    padding-left: 1rem;
+    display: inline-block;
+    font-family: "Clash Grotesk", "Clash Grotesk Placeholder", sans-serif;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #040d31;
+    margin-bottom: 20px;
+  }
+  
+  
+  .product_detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .product_item {
+    width: 300px;
+    border-radius: 30px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 90px;
+  }
+  
+  .product_item:hover {
+    box-shadow: 0 0 8px #0e335a46;
+    border-radius: 10px;
+  }
+  
+  .product_item h1 {
+    font-size: 24px;
+    color: #040d31;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+  }
+  
+  .test1 {
+    color: #373737;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+  }
+  
+  .product_logo {
+    display: block;
+    margin: 0 auto 10px;
+    width: 130px;
+    height: auto;
+    border-radius: 15%;
+  }
+  .stars {
+    position: absolute;
+    bottom: 15px; 
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  
+ 
